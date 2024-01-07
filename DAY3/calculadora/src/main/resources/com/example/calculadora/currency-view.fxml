@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" prefHeight="249.0" prefWidth="419.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.example.calculadora.CurrencyController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+      <Pane prefHeight="117.0" prefWidth="379.0">
+
+            <ComboBox layoutX="14.0" layoutY="14.0" prefWidth="150.0" promptText="Moneda" />
+            <ComboBox layoutX="14.0" layoutY="62.0" prefWidth="150.0" promptText="Moneda" />
+            <TextField layoutX="181.0" layoutY="14.0" />
+            <TextField layoutX="181.0" layoutY="62.0" />
+
+      </Pane>
+       <Button onAction="#onHelloButtonClick" text="Calcular" />
+
+</VBox>
